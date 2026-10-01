@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo HTML de Forma Simples</title>
+</head>
+<body id="topo">
+
+    <header>
+        <h1>Afinal, o que é esse tal de HTML?</h1>
+        <p>Um guia direto ao ponto para entender como a gente constrói as páginas da web sem complicação.</p>
+        <hr>
+    </header>
+
+    <h2>Navegação</h2>
+    <ul>
+        <li><a href="#o-que-e">O que é HTML?</a></li>
+        <li><a href="#como-funciona">Como funcionam as Tags?</a></li>
+        <li><a href="#esqueleto">O esqueleto de uma página</a></li>
+        <li><a href="#tags-principais">As tags que mais vamos usar</a></li>
+        <li><a href="#atributos">O que são atributos?</a></li>
+        <li><a href="#dicas">Dicas de quem está aprendendo</a></li>
+        <li><a href="#referencias">Referência</a></li>
+    </ul>
+    <hr>
+
+    <div id="o-que-e">
+        <h2>O que é HTML?</h2>
+        <p>Se a gente for comparar um site com uma casa, o HTML é a estrutura de tijolos e vigas. Ele não serve para deixar as coisas bonitas (isso é trabalho do CSS) e nem para criar funcionalidades complexas ou lógica (isso fica com o JavaScript).</p>
+        <p>O HTML serve puramente para organizar o conteúdo. Ele diz para o navegador onde fica o título, onde começa um parágrafo, onde entra uma imagem ou onde fica um link para outra página.</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="como-funciona">
+        <h2>Como funcionam as Tags?</h2>
+        <p>No HTML, a gente escreve quase tudo usando tags. Uma tag é basicamente uma instrução envolvida por sinais de menor e maior.</p>
+        <p>A maioria das tags precisa de uma abertura e de um fechamento para o navegador saber onde o elemento começa e onde ele termina. A tag de fechamento tem sempre uma barra.</p>
+        <p>Por exemplo: para criar um parágrafo, a gente abre a tag, escreve o texto e depois fecha a tag com a barra.</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="esqueleto">
+        <h2>O esqueleto de uma página</h2>
+        <p>Toda página HTML precisa de uma estrutura padrão para funcionar direito no navegador:</p>
+        <ul>
+            <li>A indicação do HTML5 no topo para o navegador saber a versão moderna.</li>
+            <li>A tag html principal que abraça todo o nosso código.</li>
+            <li>A cabeça da página (head), onde ficam as configurações invisíveis, como a acentuação correta e o título da aba.</li>
+            <li>O corpo da página (body), que é onde fica todo o conteúdo visual que o utilizador realmente enxerga.</li>
+        </ul>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="tags-principais">
+        <h2>As tags que mais vamos usar</h2>
+        
+        <h3>Títulos</h3>
+        <p>A gente usa h1 para o título principal da página. Se precisar de subtítulos para organizar os assuntos, vai usando h2, h3 e assim por diante.</p>
+
+        <h3>Textos e Destaques</h3>
+        <p>Para textos normais usamos a tag p. Quando queremos destacar alguma palavra importante em negrito, colocamos ela dentro de uma tag strong.</p>
+
+        <h3>Listas</h3>
+        <p>Quando precisamos listar coisas sem ordem específica (com pontinhos), usamos ul com li dentro. Se for uma lista numerada passo a passo, usamos ol.</p>
+
+        <h3>Links</h3>
+        <p>A tag a é a que cria os links. É com ela que fazemos o utilizador navegar para outro site ou ir para o topo da página.</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="atributos">
+        <h2>O que são atributos?</h2>
+        <p>Atributos são informações extras que a gente coloca dentro da tag de abertura para dizer como ela deve se comportar.</p>
+
+        <h3>Exemplos práticos de atributos:</h3>
+        <ul>
+            <li>O href na tag de link, que indica o endereço para onde a pessoa vai ao clicar.</li>
+            <li>O id, que dá um nome único para um bloco da página (igual usamos aqui para voltar ao topo).</li>
+            <li>O target="_blank", que faz o link abrir numa aba nova do navegador.</li>
+        </ul>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="dicas">
+        <h2>Dicas para não se enrolar no começo</h2>
+        <ol>
+            <li>Nunca se esqueça de fechar as tags que abriu. Esquecer uma barra pode bagunçar o layout inteiro.</li>
+            <li>Preste atenção na acentuação. Sempre configure o charset para UTF-8 no topo do arquivo.</li>
+            <li>Mantenha o código organizado e espaçado para você não se perder quando o arquivo crescer.</li>
+        </ol>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <div id="referencias">
+        <h2>Documentação para Consultar</h2>
+        <p>Para aprender mais ou tirar dúvidas sobre qualquer tag, vale a pena consultar a documentação oficial:</p>
+        <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Visitar a documentação MDN Web Docs</a></p>
+        <p><a href="#topo">Voltar ao início</a></p>
+        <hr>
+    </div>
+
+    <footer>
+        <p>Página criada para praticar os conceitos básicos de HTML.</p>
+        <p><a href="#topo">Voltar ao início</a></p>
+    </footer>
+
+</body>
+</html>
